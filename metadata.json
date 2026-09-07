@@ -1,0 +1,6 @@
+{
+  "name": "AI Assistant",
+  "description": "Ultra-premium AI chatbot with bilingual Bengali & English support, real-time voice interaction, multi-modal file analysis, and persistent chat history.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

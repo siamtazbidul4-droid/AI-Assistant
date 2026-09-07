@@ -1,0 +1,303 @@
+{
+  "users": [
+    {
+      "_id": "7d920776-fa98-46ad-84fa-d5db151d8d5b",
+      "name": "Test User",
+      "email": "test@example.com",
+      "passwordHash": "$2b$10$pNfL.v2UUY3aduMWuE0T0uybv.G7EL9PnAQ16iDS11gLsNPn6lsJq",
+      "createdAt": "2026-09-06T03:25:05.221Z",
+      "updatedAt": "2026-09-06T03:25:05.221Z"
+    },
+    {
+      "_id": "e926c59e-0a9b-46e1-af5f-f7e7aeef07eb",
+      "name": "Jhon Dow",
+      "email": "siamtazbidul4@gmail.com",
+      "passwordHash": "$2b$10$NWg4lie1Ir72oJyS7hXtJOoV26ymsiYLmBgXQPcVRK70jJ4F.ZjIG",
+      "createdAt": "2026-09-06T03:27:38.642Z",
+      "updatedAt": "2026-09-06T03:27:38.642Z"
+    },
+    {
+      "_id": "43d67416-f07c-4c76-b1cf-2333ce0f4c88",
+      "name": "Tajbidul",
+      "email": "rafi@gmail.com",
+      "passwordHash": "$2b$10$p4ewZM7vZrLUpPgotOaUVeYFf4Wo7hFcWUJ/SxEaf8oJABkKbGEMm",
+      "createdAt": "2026-09-06T12:17:34.254Z",
+      "updatedAt": "2026-09-06T12:17:34.254Z"
+    }
+  ],
+  "conversations": [
+    {
+      "_id": "7b9258aa-a72b-4189-b6a3-a446682aa709",
+      "userId": "e926c59e-0a9b-46e1-af5f-f7e7aeef07eb",
+      "title": "hey cane you help me",
+      "createdAt": "2026-09-06T03:27:38.979Z",
+      "updatedAt": "2026-09-06T03:27:38.980Z"
+    },
+    {
+      "_id": "cdd1a71b-2ad5-4928-b272-200343f33d67",
+      "userId": "7d920776-fa98-46ad-84fa-d5db151d8d5b",
+      "title": "hey can you help me",
+      "createdAt": "2026-09-06T03:38:18.876Z",
+      "updatedAt": "2026-09-06T03:38:18.876Z"
+    },
+    {
+      "_id": "162f40c6-9b00-4c10-981a-894a43fa5d32",
+      "userId": "7d920776-fa98-46ad-84fa-d5db151d8d5b",
+      "title": "Request for Assistance",
+      "createdAt": "2026-09-06T03:42:16.686Z",
+      "updatedAt": "2026-09-06T03:42:26.474Z"
+    },
+    {
+      "_id": "0effbe71-9c50-4127-a74b-d01d0ae18b6f",
+      "userId": "7d920776-fa98-46ad-84fa-d5db151d8d5b",
+      "title": "Greeting and Advice in Bengali",
+      "createdAt": "2026-09-06T03:42:32.150Z",
+      "updatedAt": "2026-09-06T03:42:58.271Z"
+    },
+    {
+      "_id": "ac0fbbc0-d2bd-4dc3-abf9-593ec05abd78",
+      "userId": "e926c59e-0a9b-46e1-af5f-f7e7aeef07eb",
+      "title": "Casual Greeting and Chat",
+      "createdAt": "2026-09-06T03:45:21.678Z",
+      "updatedAt": "2026-09-06T03:45:43.081Z"
+    },
+    {
+      "_id": "2b57cce9-2669-47ba-a771-064ab72bd472",
+      "userId": "7d920776-fa98-46ad-84fa-d5db151d8d5b",
+      "title": "Single Word Regression Test",
+      "createdAt": "2026-09-06T03:51:31.291Z",
+      "updatedAt": "2026-09-06T03:51:38.037Z"
+    },
+    {
+      "_id": "1e789ea8-b1b6-4a38-8eff-878f33154b1b",
+      "userId": "43d67416-f07c-4c76-b1cf-2333ce0f4c88",
+      "title": "বাংলা ভাষার উৎপত্তি ও ক্রমবিকাশ",
+      "createdAt": "2026-09-06T12:17:35.178Z",
+      "updatedAt": "2026-09-06T12:17:52.041Z"
+    },
+    {
+      "_id": "bee99c28-31b1-4f37-9a55-e461d51cfea5",
+      "userId": "43d67416-f07c-4c76-b1cf-2333ce0f4c88",
+      "title": "বাংলা ভাষার উৎপত্তি ও ক্রমবিকাশ",
+      "createdAt": "2026-09-06T12:17:43.548Z",
+      "updatedAt": "2026-09-06T12:17:49.132Z"
+    },
+    {
+      "_id": "ab68871f-4cd2-4f88-a115-1f4d48ff710f",
+      "userId": "43d67416-f07c-4c76-b1cf-2333ce0f4c88",
+      "title": "Clean Architecture in Node Express",
+      "createdAt": "2026-09-06T12:17:46.718Z",
+      "updatedAt": "2026-09-06T12:17:53.357Z"
+    },
+    {
+      "_id": "999fc4be-3e1f-4ddf-bd53-6d21b9ef0700",
+      "userId": "43d67416-f07c-4c76-b1cf-2333ce0f4c88",
+      "title": "Optimizing MongoDB and Mongoose Performance",
+      "createdAt": "2026-09-06T12:18:07.224Z",
+      "updatedAt": "2026-09-06T12:18:13.960Z"
+    }
+  ],
+  "messages": [
+    {
+      "_id": "cb1ce94b-fe1b-47f3-a867-9365534e211b",
+      "conversationId": "7b9258aa-a72b-4189-b6a3-a446682aa709",
+      "role": "user",
+      "content": "hey cane you help me",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:27:38.980Z",
+      "updatedAt": "2026-09-06T03:27:38.980Z"
+    },
+    {
+      "_id": "96b7b10a-6c0c-4359-bea5-9d098a3d407b",
+      "conversationId": "cdd1a71b-2ad5-4928-b272-200343f33d67",
+      "role": "user",
+      "content": "hey can you help me",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:38:18.876Z",
+      "updatedAt": "2026-09-06T03:38:18.876Z"
+    },
+    {
+      "_id": "256b2b33-36d6-41f7-b302-be13e64bff10",
+      "conversationId": "162f40c6-9b00-4c10-981a-894a43fa5d32",
+      "role": "user",
+      "content": "hey can you help me",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:42:16.687Z",
+      "updatedAt": "2026-09-06T03:42:16.687Z"
+    },
+    {
+      "_id": "f85a7b23-90d5-4abd-984c-86c398385a48",
+      "conversationId": "162f40c6-9b00-4c10-981a-894a43fa5d32",
+      "role": "assistant",
+      "content": "Hello! I would be glad to help you. \n\nWhat are you working on, or what topic would you like to explore? Feel free to share the details!",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:42:18.936Z",
+      "updatedAt": "2026-09-06T03:42:18.936Z"
+    },
+    {
+      "_id": "b32da41b-8ea3-4673-a14e-964c19fccda9",
+      "conversationId": "0effbe71-9c50-4127-a74b-d01d0ae18b6f",
+      "role": "user",
+      "content": "কেমন আছেন? বাংলায় একটি উপদেশ দিন",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:42:32.151Z",
+      "updatedAt": "2026-09-06T03:42:32.151Z"
+    },
+    {
+      "_id": "1e8a4315-0652-4921-92ee-f7dbe539aa2d",
+      "conversationId": "0effbe71-9c50-4127-a74b-d01d0ae18b6f",
+      "role": "assistant",
+      "content": "আমি ভালো আছি, ধন্যবাদ। আশা করি আপনিও ভালো আছেন।\n\nআপনার জন্য একটি উপদেশ:\n\n**\"অতীতকে পরিবর্তন করা সম্ভব নয়, কিন্তু বর্তমানের প্রতিটি মুহূর্তকে কাজে লাগিয়ে ভবিষ্যতের রূপরেখা বদলে দেওয়া সম্ভব। তাই যা চলে গেছে তা নিয়ে আক্ষেপ না করে, আজকের সময়কে সর্বোচ্চ গুরুত্ব দিয়ে নিজের লক্ষ্যপানে এগিয়ে যান।\"**",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:42:51.493Z",
+      "updatedAt": "2026-09-06T03:42:51.493Z"
+    },
+    {
+      "_id": "bdc9114d-9d5e-42b9-b610-a8ad008b3b52",
+      "conversationId": "ac0fbbc0-d2bd-4dc3-abf9-593ec05abd78",
+      "role": "user",
+      "content": "hey",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:45:21.680Z",
+      "updatedAt": "2026-09-06T03:45:21.680Z"
+    },
+    {
+      "_id": "ec1046a3-e02a-4843-ad63-bb191c5d5d58",
+      "conversationId": "ac0fbbc0-d2bd-4dc3-abf9-593ec05abd78",
+      "role": "assistant",
+      "content": "Hello! How can I assist you today? \n\nWhether you're tackling a complex problem, writing code, designing architecture, or exploring a new idea, let me know what you'd like to work on.",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:45:27.486Z",
+      "updatedAt": "2026-09-06T03:45:27.486Z"
+    },
+    {
+      "_id": "c7142fb2-c366-4a54-8756-3add52e17b98",
+      "conversationId": "ac0fbbc0-d2bd-4dc3-abf9-593ec05abd78",
+      "role": "user",
+      "content": "can you help me",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:45:40.184Z",
+      "updatedAt": "2026-09-06T03:45:40.184Z"
+    },
+    {
+      "_id": "55b3a771-d740-4a20-a291-846e089074b7",
+      "conversationId": "ac0fbbc0-d2bd-4dc3-abf9-593ec05abd78",
+      "role": "assistant",
+      "content": "Yes, absolutely. \n\nPlease tell me what you need assistance with—whether it's writing or debugging code, solving a technical or mathematical problem, drafting content, or brainstorming a project. \n\nWhat are you working on?",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:45:43.081Z",
+      "updatedAt": "2026-09-06T03:45:43.081Z"
+    },
+    {
+      "_id": "235cfb8f-bed7-4411-899c-0bf6d297ffce",
+      "conversationId": "2b57cce9-2669-47ba-a771-064ab72bd472",
+      "role": "user",
+      "content": "Testing regression: reply in 1 word",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:51:31.292Z",
+      "updatedAt": "2026-09-06T03:51:31.292Z"
+    },
+    {
+      "_id": "bd730970-3823-48c8-b79f-ff9c41534d59",
+      "conversationId": "2b57cce9-2669-47ba-a771-064ab72bd472",
+      "role": "assistant",
+      "content": "Passed",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T03:51:32.975Z",
+      "updatedAt": "2026-09-06T03:51:32.975Z"
+    },
+    {
+      "_id": "8398f45c-15cf-4276-ba2b-149e239925ee",
+      "conversationId": "1e789ea8-b1b6-4a38-8eff-878f33154b1b",
+      "role": "user",
+      "content": "বাংলা ভাষার উৎপত্তি ও ক্রমবিকাশ সংক্ষেপে সহজ ভাষায় বুঝিয়ে দাও।",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T12:17:35.182Z",
+      "updatedAt": "2026-09-06T12:17:35.182Z"
+    },
+    {
+      "_id": "2e6b9388-927c-4fcf-83e7-b479858780a5",
+      "conversationId": "bee99c28-31b1-4f37-9a55-e461d51cfea5",
+      "role": "user",
+      "content": "বাংলা ভাষার উৎপত্তি ও ক্রমবিকাশ সংক্ষেপে সহজ ভাষায় বুঝিয়ে দাও।",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T12:17:43.550Z",
+      "updatedAt": "2026-09-06T12:17:43.550Z"
+    },
+    {
+      "_id": "06638fa5-b83a-412d-87f8-891927b86df3",
+      "conversationId": "ab68871f-4cd2-4f88-a115-1f4d48ff710f",
+      "role": "user",
+      "content": "Explain the principles of clean architecture in a Node.js and Express backend with examples.",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T12:17:46.720Z",
+      "updatedAt": "2026-09-06T12:17:46.720Z"
+    },
+    {
+      "_id": "7981283f-5f35-4d29-9730-acb883eed3ba",
+      "conversationId": "bee99c28-31b1-4f37-9a55-e461d51cfea5",
+      "role": "assistant",
+      "content": "বাংলা ভাষার উৎপত্তি ও ক্রমবিকাশ একটি দীর্ঘ বিবর্তনের ফসল। নিচে সহজ ও সংক্ষেপে এর ইতিহাস তুলে ধরা হলো:\n\n### ১. মূল উৎস: ইন্দো-ইউরোপীয় ভাষা\nবাংলা ভাষার আদি উৎস হলো **ইন্দো-ইউরোপীয় মূল ভাষা**। সেখান থেকে বিভিন্ন শাখা-প্রশাখার মাধ্যমে এটি বিবর্তিত হয়েছে। এর ধারাটি হলো:\n*   **ইন্দো-ইউরোপীয়** → **ইন্দো-ইরানীয়** → **ইন্দো-আর্য**।\n\n### ২. বিবর্তনের ধাপসমূহ\nবাংলা ভাষার জন্ম হঠাৎ করে হয়নি, এটি হাজার বছরের পরিবর্তনের ফল:\n\n*   **বৈদিক ভাষা (খ্রিস্টপূর্ব ১৫০০ - ৮০০):** আর্যদের প্রাচীন ধর্মগ্রন্থ বেদের ভাষা।\n*   **সংস্কৃত ভাষা (খ্রিস্টপূর্ব ৮০০ - ৪০০):** বৈদিক ভাষার পরিমার্জিত ও ব্যাকরণসিদ্ধ রূপ।\n*   **প্রাকৃত ও অপভ্রংশ (খ্রিস্টপূর্ব ৪০০ - ১০০০):** সাধারণ মানুষের মুখের ভাষা বা কথ্য রূপকে বলা হতো প্রাকৃত। কালক্রমে এই প্রাকৃত ভাষা আরও পরিবর্তিত হয়ে 'অপভ্রংশ' রূপ লাভ করে। ভাষাবিদদের মতে, **মাগধী অপভ্রংশ** থেকেই বাংলা ভাষার উৎপত্তি হয়েছে।\n\n### ৩. বাংলা ভাষার কালানুক্রমিক পর্যায়\nবাংলা ভাষার বিবর্তনকে প্রধানত তিনটি যুগে ভাগ করা যায়:\n\n*   **প্রাচীন যুগ (৬৫০ - ১২০০ খ্রিস্টাব্দ):** বাংলা ভাষার শুরুর এই সময়ের একমাত্র নিদর্শন হলো **'চর্যাপদ'**। এটি মূলত বৌদ্ধ সহজিয়াদের সাধন সংগীত।\n*   **মধ্য যুগ (১২০১ - ১৮০০ খ্রিস্টাব্দ):** এই সময়ে বাংলা ভাষা সাহিত্যের রূপ পায়। শ্রীকৃষ্ণকীর্তন, মঙ্গলকাব্য, বৈষ্ণব পদাবলি এবং অনুবাদ সাহিত্যের (রামায়ণ, মহাভারত) মাধ্যমে ভাষাটি সমৃদ্ধ হয়। এ সময় ফারসি ও আরবি শব্দের প্রভাব দেখা যায়।\n*   **আধুনিক যুগ (১৮০১ - বর্তমান):** ফোর্ট উইলিয়াম কলেজের প্রতিষ্ঠা এবং গদ্যের বিকাশের মাধ্যমে বাংলা ভাষা আধুনিক রূপ পায়। ঈশ্বরচন্দ্র বিদ্যাসাগর, বঙ্কিমচন্দ্র চট্টোপাধ্যায় এবং রবীন্দ্রনাথ ঠাকুরের হাত ধরে বাংলা ভাষা বিশ্বমানের আধুনিক ও শক্তিশালী ভাষায় পরিণত হয়।\n\n### সারসংক্ষেপ\nসহজ কথায়, বাংলা ভাষার বংশলতিকাটি হলো:\n**ইন্দো-ইউরোপীয়** → **বৈদিক** → **সংস্কৃত** → **প্রাকৃত** → **মাগধী অপভ্রংশ** → **বাংলা**।\n\nহাজার বছরের পথ চলায় বাংলা ভাষা বিভিন্ন ভাষার (যেমন—সংস্কৃত, ফারসি, আরবি, ইংরেজি) শব্দ ও ভাব গ্রহণ করে নিজেকে সমৃদ্ধ করেছে এবং আজকের এই শ্রুতিমধুর ও শক্তিশালী অবস্থানে পৌঁছেছে।",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T12:17:47.532Z",
+      "updatedAt": "2026-09-06T12:17:47.532Z"
+    },
+    {
+      "_id": "9a4d09c3-de48-4f12-9204-60e5c1e63a89",
+      "conversationId": "1e789ea8-b1b6-4a38-8eff-878f33154b1b",
+      "role": "assistant",
+      "content": "বাংলা ভাষার উৎপত্তি ও ক্রমবিকাশের ইতিহাস হাজার বছরেরও বেশি পুরোনো। এটি হঠাৎ করে তৈরি হয়নি, বরং শতাব্দীর পর শতাব্দী ধরে বিভিন্ন ভাষার পরিবর্তনের মধ্য দিয়ে আজকের রূপ ধারণ করেছে। \n\nনিচে সহজ ভাষায় এর ধারাটি তুলে ধরা হলো:\n\n---\n\n### ১. ভাষার মূল উৎস (আদি রূপ)\nবাংলা ভাষার আদি উৎস হলো **ইন্দো-ইউরোপীয় ভাষা পরিবার** (Indo-European Language Family)। আজ থেকে প্রায় পাঁচ হাজার বছর আগে এই ভাষাভাষী জনগোষ্ঠী বিভিন্ন অঞ্চলে ছড়িয়ে পড়ে। এর একটি শাখা ভারতবর্ষে প্রবেশ করে, যাকেবাংলা ভাষার উৎপত্তি ও ক্রমবিকাশ একটি দীর্ঘ বিবর্তনের ফসল। নিচে সহজ ও সংক্ষেপে এর পর্যায়গুলো তুলে ধরা হলো:\n\n### ১. মূল উৎস: ইন্দো-ইউরোপীয় ভাষা পরিবার\nপৃথিবীর অনেক ভাষার মতো বাংলা ভাষার আদি উৎস হলো **ইন্দো-ইউরোপীয় মূল ভাষা**। সেখান থেকে এটি বিবর্তিত হয়ে ধাপে ধাপে বাংলায় রূপ নিয়েছে।\n\n### ২. বিবর্তনের ধাপসমূহ\nভাষাবিদদের মতে, বাংলা ভাষার ক্রমবিকাশ মূলত পাঁচটি প্রধান ধাপ অতিক্রম করেছে:\n\n*   **ইন্দো-ইউরোপীয় মূল ভাষা:** এটি ছিল আদি উৎস।\n*   **ইন্দো-ইরানীয় শাখা:** যা থেকে ভারতীয় আর্য ভাষার উদ্ভব হয়।\n*   **প্রাচীন ভারতীয় আর্য ভাষা (সংস্কৃত):** বৈদিক যুগ থেকে খ্রিস্টপূর্ব ৬০০ অব্দ পর্যন্ত এর বিস্তার ছিল।\n*   **মধ্য ভারতীয় আর্য ভাষা (প্রাকৃত ও অপভ্রংশ):** খ্রিস্টপূর্ব ৬০০ থেকে ১০০০ খ্রিস্টাব্দ পর্যন্ত এই সময়কাল। এই স্তরে ভাষাটি সাধারণ মানুষের মুখের ভাষায় পরিণত হয় (পালি, প্রাকৃত ও অপভ্রংশ রূপে)।\n*   **নব্য ভারতীয় আর্য ভাষা:** ১০০০ খ্রিস্টাব্দ থেকে আধুনিক বাংলা ভাষার জন্ম।\n\n### ৩. বাংলার উদ্ভবকাল (১০০০ খ্রিস্টাব্দ)\nঅধিকাংশ ভাষাবিদ মনে করেন, **৯৫০ থেকে ১০০০ খ্রিস্টাব্দের** দিকে মাগধী প্রাকৃতের অপভ্রংশ রূপ থেকে বাংলা ভাষার স্বতন্ত্র অস্তিত্ব তৈরি হতে শুরু করে।\n\n### ৪. বাংলা ভাষার তিনটি পর্যায়\nবাংলা ভাষাকে সময়কাল অনুযায়ী তিনটি প্রধান ভাগে ভাগ করা হয়:\n\n১. **প্রাচীন যুগ (৯৫০ – ১৩৫০ খ্রিস্টাব্দ):** এর একমাত্র নিদর্শন হলো **'চর্যাপদ'**। এই সময়ের ভাষা ছিল মিশ্র এবং কিছুটা অস্পষ্ট।\n২. **মধ্য যুগ (১৩৫০ – ১৮০০ খ্রিস্টাব্দ):** এই সময়ে বাংলা ভাষা অনেকটা পরিপুষ্ট হয়। শ্রীকৃষ্ণকীর্তন, বৈষ্ণব পদাবলি, মঙ্গলকাব্য ও অনুবাদ সাহিত্য এই যুগের সৃষ্টি। ফারসি ও আরবি শব্দের প্রভাব এই যুগে বাড়ে।\n৩. **আধুনিক যুগ (১৮০০ খ্রিস্টাব্দ – বর্তমান):** ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠার পর গদ্যের প্রচলন শুরু হয়। ঈশ্বরচন্দ্র বিদ্যাসাগর, বঙ্কিমচন্দ্র চট্টোপাধ্যায় এবং পরবর্তীতে রবীন্দ্রনাথ ঠাকুরের হাত ধরে বাংলা ভাষা তার বর্তমান মার্জিত ও শক্তিশালী রূপ লাভ করে।\n\n### সারসংক্ষেপ\nসহজ কথায়, বাংলা ভাষা সরাসরি সংস্কৃত থেকে আসেনি; বরং এটি **বৈদিক ভাষা → সংস্কৃত → প্রাকৃত → অপভ্রংশ → বাংলা**—এই দীর্ঘ পথ পাড়ি দিয়ে আজকের আধুনিক রূপ পেয়েছে। \n\nআজকের বাংলা ভাষা তার শব্দভাণ্ডারে তৎসম (সংস্কৃত), তদ্ভব, দেশি এবং বিদেশি (আরবি, ফারসি, ইংরেজি, পর্তুগিজ) শব্দের এক অপূর্ব সমন্বয় ঘটিয়েছে।",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T12:17:51.048Z",
+      "updatedAt": "2026-09-06T12:17:51.048Z"
+    },
+    {
+      "_id": "c5596293-7a79-4266-9a7a-2421088f30c2",
+      "conversationId": "ab68871f-4cd2-4f88-a115-1f4d48ff710f",
+      "role": "assistant",
+      "content": "Clean Architecture, popularized by Robert C. Martin (Uncle Bob), is a software design philosophy that emphasizes the **separation of concerns**. Its primary goal is to make the system independent of frameworks, databases, UI, and external agencies.\n\nIn a Node.js/Express environment, this means your business logic should not know that Express exists, nor should it care if you are using MongoDB, PostgreSQL, or a flat file.\n\n---\n\n### The Layers\nClean Architecture is represented by concentric circles:\n\n1.  **Entities (Core):** Pure business objects/domain models.\n2.  **Use Cases:** Application-specific business rules. They orchestrate the flow of data to/from entities.\n3.  **Interface Adapters:** Controllers, Presenters, and Gateways (converts data between the Use Cases and external agents).\n4.  **Frameworks & Drivers:** Express, Database drivers, ORMs, etc.\n\n---\n\n### Folder Structure\nA typical Clean Architecture structure in Node.js looks like this:\n\n```text\nsrc/\n├── domain/           # Entities (Pure business logic)\n├── use-cases/        # Orchestration logic\n├── interfaces/       # Controllers and Presenters\n├── infrastructure/   # Express, Database, ORM\n└── main.ts           # Composition Root (Dependency Injection)\n```\n\n---\n\n### Practical Example: Creating a User\n\n#### 1. Domain (The Entity)\nThis file has zero dependencies. It is pure JavaScript/TypeScript.\n\n```typescript\n// src/domain/User.ts\nexport class User {\n  constructor(public id: string, public email: string) {}\n}\n```\n\n#### 2. Use Case\nThe Use Case interacts with the domain. It doesn't know about Express `req` or `res`.\n\n```typescript\n// src/use-cases/CreateUser.ts\nexport class CreateUser {\n  constructor(private userRepository: any) {}\n\n  async execute(email: string) {\n    const user = new User(Date.now().toString(), email);\n    return await this.userRepository.save(user);\n  }\n}\n```\n\n#### 3. Interface Adapter (Controller)\nThe controller is the bridge. It parses the request, calls the use case, and formats the response.\n\n```typescript\n// src/interfaces/UserController.ts\nexport class UserController {\n  constructor(private createUserUseCase: any) {}\n\n  async handle(req: Request, res: Response) {\n    const user = await this.createUserUseCase.execute(req.body.email);\n    res.status(201).json(user);\n  }\n}\n```\n\n#### 4. Infrastructure (The Framework)\nThis is where Express lives.\n\n```typescript\n// src/infrastructure/routes.ts\nconst userRepository = new MongoUserRepository(); // Injection\nconst createUser = new CreateUser(userRepository);\nconst userController = new UserController(createUser);\n\nrouter.post('/users', (req, res) => userController.handle(req, res));\n```\n\n---\n\n### Core Principles Applied\n\n1.  **Dependency Rule:** Dependencies point **inward**. The `Domain` knows nothing about the `Infrastructure`. The `Infrastructure` knows everything about the `Domain`.\n2.  **Testability:** Because the business logic (Use Cases) is decoupled from Express, you can write unit tests for your business logic without ever spinning up an HTTP server.\n3.  **Independence:** If you decide to switch from Express to Fastify, or MongoDB to PostgreSQL, you only modify the `Infrastructure` layer. Your `Use Cases` and `Entities` remain untouched.\n4.  **Dependency Injection (DI):** Use DI (as seen in the `UserController` constructor) to provide implementations. This makes the code highly modular and easy to mock during testing.\n\n### When to use Clean Architecture?\n*   **Use it when:** You are building a complex, long-term enterprise application where business logic is intricate and subject to change.\n*   **Avoid it when:** You are building a small CRUD API, a prototype, or a simple microservice. The boilerplate (boilerplate code for adapters and interfaces) might outweigh the benefits for small projects.",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T12:17:51.573Z",
+      "updatedAt": "2026-09-06T12:17:51.573Z"
+    },
+    {
+      "_id": "095d5b1f-82a2-4051-857d-5de42b4fb535",
+      "conversationId": "999fc4be-3e1f-4ddf-bd53-6d21b9ef0700",
+      "role": "user",
+      "content": "How do I optimize database indexing and query performance in MongoDB with Mongoose?",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T12:18:07.228Z",
+      "updatedAt": "2026-09-06T12:18:07.228Z"
+    },
+    {
+      "_id": "b16f6753-f56b-40e9-8398-819437b7c138",
+      "conversationId": "999fc4be-3e1f-4ddf-bd53-6d21b9ef0700",
+      "role": "assistant",
+      "content": "Optimizing performance in MongoDB using Mongoose requires a multi-layered approach that bridges database design, indexing strategy, and application-level query patterns.\n\nHere is a guide to achieving peak performance.\n\n---\n\n### 1. Strategic Indexing\nIndexes are the most critical factor in read performance. Without them, MongoDB performs a \"Collection Scan\" (scanning every document), which is computationally expensive.\n\n*   **Compound Indexes:** If you frequently query by multiple fields, use compound indexes. Remember the **ESR Rule** (Equality, Sort, Range):\n    1.  **Equality:** Fields compared for exact matches (e.g., `status: 'active'`).\n    2.  **Sort:** Fields used for ordering (e.g., `createdAt: -1`).\n    3.  **Range:** Fields used for inequalities (e.g., `price: { $gt: 100 }`).\n    *   *Example:* `schema.index({ status: 1, createdAt: -1, price: 1 });`\n\n*   **Covered Queries:** Design your queries to return only the fields present in the index. If the index contains all requested fields, MongoDB returns the data directly from the index without loading the document from the disk.\n\n*   **Partial Indexes:** If you only query a subset of data (e.g., `{ status: 'pending' }`), create a partial index to save memory and storage.\n    ```javascript\n    schema.index({ email: 1 }, { partialFilterExpression: { status: 'pending' } });\n    ```\n\n---\n\n### 2. Query Optimization (Mongoose Specifics)\n\n*   **Use `.lean()`:** By default, Mongoose returns \"Hydrated\" Mongoose Documents, which have complex internal state, change tracking, and methods. If you only need plain JSON objects for read-only operations, use `.lean()`. It significantly reduces CPU and memory overhead.\n    ```javascript\n    const users = await User.find({ active: true }).lean();\n    ```\n\n*   **Projection:** Never fetch more data than you need. Use projection to exclude large fields (like `description` or `binaryData`) that aren't required for the current view.\n    ```javascript\n    const users = await User.find({ active: true }, 'username email');\n    ```\n\n*   **Avoid `count()`:** Use `countDocuments()` for accurate counts, but be aware that it can be slow on large collections. If you only need an estimate, use `estimatedDocumentCount()`, which uses collection metadata.\n\n---\n\n### 3. Schema & Data Modeling\n\n*   **Embedding vs. Referencing:**\n    *   **Embed:** Use for data that is accessed together and has a 1-to-few relationship (e.g., user addresses). This avoids joins.\n    *   **Reference:** Use for 1-to-many or many-to-many relationships where the child data might grow unbounded.\n\n*   **Avoid Unbounded Arrays:** If you have an array that grows indefinitely (e.g., an array of logs or comments), it will eventually hit the 16MB document size limit and cause performance degradation. Move these to a separate collection.\n\n---\n\n### 4. Advanced Performance Tuning\n\n*   **Explain Plan:** Always use `.explain('executionStats')` on slow queries to see if MongoDB is using an index or performing a full collection scan.\n    ```javascript\n    const stats = await User.find({ status: 'active' }).explain('executionStats');\n    console.log(stats.executionStats);\n    ```\n\n*   **Connection Pooling:** Ensure your `mongoose.connect` options are configured for your traffic. Mongoose manages a connection pool automatically; tune `maxPoolSize` based on your application's concurrency requirements.\n\n*   **Pagination:** Never use `.skip()` for deep pagination (e.g., skipping 10,000 records). It forces the database to scan all skipped documents. Use **Keyset Pagination** (also known as the \"Seek Method\") where you query based on the last seen ID:\n    ```javascript\n    // Instead of .skip(10000).limit(10)\n    const items = await Model.find({ _id: { $gt: lastSeenId } }).limit(10);\n    ```\n\n---\n\n### Summary Checklist\n1.  **Index every field used in filters, sorts, and joins.**\n2.  **Use `.lean()` for all read-only queries.**\n3.  **Project fields** to minimize payload size.\n4.  **Use Keyset Pagination** for large datasets.\n5.  **Monitor with `explain()`** to identify and fix slow queries.\n\nBy strictly adhering to these patterns, you will significantly reduce latency and database load, ensuring your application remains performant at scale.",
+      "attachments": [],
+      "language": "auto",
+      "createdAt": "2026-09-06T12:18:12.501Z",
+      "updatedAt": "2026-09-06T12:18:12.501Z"
+    }
+  ],
+  "files": []
+}
