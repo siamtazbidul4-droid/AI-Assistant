@@ -1,6 +1,20 @@
 import { User, Conversation, Message, Attachment } from '../types';
 
-const API_BASE = ((import.meta as any).env?.VITE_API_URL as string) || '';
+const API_BASE = (() => {
+  const configuredBase = ((import.meta as any).env?.VITE_API_URL as string | undefined)?.trim();
+  if (configuredBase) {
+    return configuredBase.replace(/\/$/, '');
+  }
+
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname;
+    if (hostname === 'localhost' || hostname === '127.0.0.1') {
+      return 'http://localhost:5000';
+    }
+  }
+
+  return '';
+})();
 
 class ApiError extends Error {
   code?: string;

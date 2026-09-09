@@ -181,9 +181,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </div>
             <div>
               <h1 className="text-sm font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
-                AI Assistant Siam
+                Siam  AI Assistant
               </h1>
-              <p className="text-[10px] text-zinc-400"> Text & Live Voice</p>
+              <p className="text-[10px] text-zinc-400">Text & Real-Time Voice</p>
             </div>
           </div>
 

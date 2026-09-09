@@ -1,8 +1,15 @@
 node_modules/
+front-end/node_modules/
+back-end/node_modules/
 build/
 dist/
+front-end/dist/
+back-end/dist/
 coverage/
 .DS_Store
 *.log
-.env*
+.env
+.env.*
 !.env.example
+!.env.*.example
+.data/

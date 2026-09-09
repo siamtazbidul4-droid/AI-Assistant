@@ -11,13 +11,27 @@ import { isDbConnected } from './config/db.js';
 export function createApp(): Express {
   const app = express();
 
-  // Trust proxy for rate limiting and secure cookies behind reverse proxy
   app.set('trust proxy', 1);
 
-  // Cross-Origin Resource Sharing
+  const allowedOrigins = new Set([
+    ...(process.env.CLIENT_URL ? [process.env.CLIENT_URL] : []),
+    ...(process.env.FRONTEND_URL ? [process.env.FRONTEND_URL] : []),
+    'http://localhost:5173',
+    'http://127.0.0.1:5173',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+  ]);
+
   app.use(
     cors({
-      origin: true, // Allow requesting origin
+      origin(origin, callback) {
+        if (!origin || allowedOrigins.has(origin)) {
+          callback(null, true);
+          return;
+        }
+
+        callback(new Error('CORS blocked for this origin'));
+      },
       credentials: true,
       methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE', 'OPTIONS'],
       allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
