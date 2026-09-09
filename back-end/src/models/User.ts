@@ -37,7 +37,4 @@ const UserSchema = new Schema<IUserDocument>(
   }
 );
 
-// Email indexing for high-performance lookup
-UserSchema.index({ email: 1 });
-
 export const UserModel = mongoose.models.User || mongoose.model<IUserDocument>('User', UserSchema);
